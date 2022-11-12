@@ -15,4 +15,4 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             cd /pub/${{ secrets.USERNAME }}
-            git clone https://github.com/gehuang892/CMSC389T-PersonalWebsite
+            git clone git@github.com:gehuang892/CMSC389T-PersonalWebsite.git
